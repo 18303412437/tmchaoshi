@@ -1,0 +1,14 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input{/*清除标签原有样式*/
+	margin:0px;
+	padding:0px;
+	list-style:none;/*列表样式：清除列表标签小圆点*/
+	font-family:Arial,"微软雅黑";
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+/*图片被a标签包裹时，在IE8以下会有边框出现，以下是解决办法（边框为无）*/
+img{
+	border:none;
+}
